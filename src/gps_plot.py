@@ -5,7 +5,6 @@ import gpxpy
 import glob
 import numpy as np
 
-# %%
 lat, lon = [], []
 
 for file in glob.glob('*.gpx'):

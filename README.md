@@ -1,9 +1,21 @@
 # GPS-Plot
 
-Plot a map from `.gpx` files using `gpxpy` and `tilemapbase`
+_Warning: Work in progress_
+
+Plot a map from one or more `.gpx` files using `gpxpy` and `tilemapbase`.
 
 ## Example
 
-![](output.png)
+![](/docs/output.png)
 
 ## Getting started
+
+1. Install the dependencies with:
+
+   ```
+   python -m pip install -r requirements.txt
+   ```
+
+2. Put your .gpx files in in the `/src` folder
+
+3. Open and run `gps_plot.py`
