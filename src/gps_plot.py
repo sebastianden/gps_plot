@@ -49,7 +49,7 @@ def create_map(lon: list, lat: list) -> None:
     fig, ax = plt.subplots(figsize=(8, 8), dpi=300)
     plotter = tilemapbase.Plotter(extent, t, width=500)
     plotter.plot(ax, t)
-    ax.plot(x, y, '--r')
+    ax.plot(x, y, color='brown', linestyle='dashed')
     plt.savefig('test.jpg', dpi=300)
 
 
